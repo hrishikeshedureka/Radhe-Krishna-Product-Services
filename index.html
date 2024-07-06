@@ -43,6 +43,42 @@
                     <li><a href="index.html#hero" class="active">Home</a></li>
                     <li><a href="index.html#about">About</a></li>
                     <li><a href="index.html#services">Services</a></li>
+                    <!--<li class="dropdown">
+                        <a href="index.html#services"><span>All Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li class="dropdown">
+                                <a href="#"><span>Loans</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <ul>
+                                    <li><a href="index.html#services">Housing Loan</a></li>
+                                    <li><a href="index.html#services">Education Loan</a></li>
+                                    <li><a href="index.html#services">Loan Against Proprties</a></li>
+                                    <li><a href="index.html#services">New Car Loan</a></li>
+                                    <li><a href="index.html#services">Used Car Loan</a></li>
+                                    <li><a href="index.html#services">Personal Loan</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#"><span>Vehicle</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <ul>
+                                    <li><a href="index.html#services">New Car</a></li>
+                                    <li><a href="index.html#services">Used Car</a></li>
+                                    <li><a href="index.html#services">Bike</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="index.html#services"><span>Investment</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <ul>
+                                    <li><a href="index.html#services">Mutual Funds</a></li>
+                                    <li><a href="index.html#services">Health Insurance</a></li>
+                                    <li><a href="index.html#services">Term Insurance</a></li>
+                                    <li><a href="index.html#services">Recurring Deposit</a></li>
+                                    <li><a href="index.html#services">Fixed Deposit</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="index.html#services">Credit Cards</a></li>
+                            <li><a href="index.html#services">Corporate Food Cards</a></li>
+                        </ul>
+                    </li>-->
                     <li><a href="index.html#contact">Contact Us</a></li>
                 </ul>
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -316,12 +352,11 @@
 
                 <div class="row gy-4">
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-3 col-md-6">
                         <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
                             <i class="bi bi-geo-alt"></i>
                             <h3>Address</h3>
-                            <p>Parishad Tower, Adityapur,</p>
-                            <p>Jamshedpur, Jharkhand 831013</p>
+                            <p>Parishad Tower, Adityapur</p>
                         </div>
                     </div><!-- End Info Item -->
 
@@ -341,6 +376,14 @@
                         </div>
                     </div><!-- End Info Item -->
 
+                    <div class="col-lg-3 col-md-6">
+                        <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
+                            <i class="bi bi-whatsapp"></i>
+                            <h3>Whatsapp</h3>
+                            <p>Start chatting</p>
+                        </div>
+                    </div><!-- End Info Item -->
+
                 </div>
 
                 <div class="row gy-4 mt-1">
@@ -349,51 +392,51 @@
                     </div><!-- End Google Maps -->
 
                     <div class="col-lg-6">
-                        <!--<form class="php-email-form" action="forms/contact.php" method="post" data-aos="fade-up" data-aos-delay="400">-->
-                        <div class="php-email-form">
-                            <div class="row gy-4">
+                        <form class="php-email-form" action="forms/contact.php" method="post" data-aos="fade-up" data-aos-delay="400">
+                            <div class="php-email-form">
+                                <div class="row gy-4">
 
-                                <div class="col-md-6">
-                                    <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
-                                </div>
+                                    <div class="col-md-6">
+                                        <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                                    </div>
 
-                                <div class="col-md-6 ">
-                                    <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                                </div>
+                                    <div class="col-md-6 ">
+                                        <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                                    </div>
 
-                                <div class="col-md-12">
-                                    <input type="text" class="form-control" name="mobile" placeholder="Your Contact Number" required="">
-                                </div>
-                                <div class="col-md-12">
-                                    <select name="services" id="services" class="form-control" required="">
-                                        <option value="-1">Select Which Services You Want</option>
-                                        <option value="Home Loan">Home Loan</option>
-                                        <option value="Car Loan">Car Loan</option>
-                                        <option value="Education Loan">Education Loan</option>
-                                        <option value="Credit Cards">Credit Cards</option>
-                                        <option value="Used Cars">Used Cars</option>
-                                        <option value="Loan on Used Cars">Loan on Used Cars</option>
-                                        <option value="Personal Loan">Personal Loan</option>
-                                        <option value="Loan Against Properties">Loan Against Properties</option>
-                                        <option value="Mutual Fund">Mutual Fund</option>
-                                        <option value="Insurance">Insurance</option>
-                                    </select>
-                                </div>
+                                    <div class="col-md-12">
+                                        <input type="text" class="form-control" name="mobile" placeholder="Your Contact Number" required="">
+                                    </div>
+                                    <div class="col-md-12">
+                                        <select name="services" id="services" class="form-control" required="">
+                                            <option value="-1">Select Which Services You Want</option>
+                                            <option value="Home Loan">Home Loan</option>
+                                            <option value="Car Loan">Car Loan</option>
+                                            <option value="Education Loan">Education Loan</option>
+                                            <option value="Credit Cards">Credit Cards</option>
+                                            <option value="Used Cars">Used Cars</option>
+                                            <option value="Loan on Used Cars">Loan on Used Cars</option>
+                                            <option value="Personal Loan">Personal Loan</option>
+                                            <option value="Loan Against Properties">Loan Against Properties</option>
+                                            <option value="Mutual Fund">Mutual Fund</option>
+                                            <option value="Insurance">Insurance</option>
+                                        </select>
+                                    </div>
 
-                                <div class="col-md-12">
-                                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                                </div>
+                                    <div class="col-md-12">
+                                        <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                                    </div>
 
-                                <div class="col-md-12 text-center">
-                                    <div class="loading">Loading</div>
-                                    <div class="error-message"></div>
-                                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                                    <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Send Message</button>
-                                </div>
+                                    <div class="col-md-12 text-center">
+                                        <div class="loading">Loading</div>
+                                        <div class="error-message"></div>
+                                        <div class="sent-message">Your message has been sent. Thank you!</div>
+                                        <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Send Message</button>
+                                    </div>
 
+                                </div>
                             </div>
-                        </div>
-                        <!--</form>-->
+                        </form>
                     </div><!-- End Contact Form -->
 
                 </div>
